@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   </head>
+  
 <body>
   <header>
     <div class="navbar">
@@ -14,11 +14,11 @@
         <div class="controls">
           <i class="fa-solid fa-language"></i>
             <select name="language" id="taal">
-              <option value="nederlands">Nederlands</option>
-              <option value="engels">Engels</option>
-              <option value="frans">Frans</option>
+              <option style="color: black;" value="nederlands">Nederlands</option>
+              <option style="color: black;" value="engels">Engels</option>
+              <option style="color: black;" value="frans">Frans</option>
             </select>
-        <div class="buttons"><b>Inloggen</b></div>
+            <a href="index2.html" class="buttons"><b>Inloggen</b></a>
       </div>
     </div>
   </header>
@@ -28,14 +28,14 @@
         <h3>Kijk waar je wilt. Altijd opzegbaar.</h3>
           <div class="search">
             <input type="text" class="box" placeholder="E-mailadres">
-            <span class="try"><b>Aan de slag</b> <i class="fa fa-angle-right" aria-hidden="true"></i></span>
+            <span class="try"><a style="color: white; text-decoration: none;" href="index2.html"><b>Aan de slag </b></a> &#10095;</span>
           </div>
         <h4>Klaar om te kijken? Voer je e-mailadres in om je lidmaatschap te starten of te hernieuwen.</h4>
     </div>
   </div>
   <div class="container1">
     <div class="text">
-        <h1><b>Kijk op je tv</b></h1>
+        <h1><b><em>Kijk op je tv</em></b></h1>
         <p>Kijk op  smart-tv's, Playstation, Xbox, <br>Chromecast, Apple TV, Blu-ray players, en meer.</p>
     </div>
     <div class="image">
@@ -47,13 +47,13 @@
       <img src="images/mobiel.jpg" alt="mobiel">
     </div>
     <div class="text">
-      <h1>Download series die je offline wilt kijken</h1>
+      <h1><em>Download series die je offline wilt kijken</em></h1>
         <p>Sla je favorieten eenvoudig op zodat je altijd wat kunt kijken.</p>
     </div>
   </div>  
   <div class="container1">
     <div class="text">
-      <h1>Kijk Overal.</h1>
+      <h1><em>Kijk Overal.</em></h1>
         <p>Kijk onbeperkt series en films op je telefoon, tablet, laptop en tv.</p>
       </div>
         <div class="image">
@@ -65,7 +65,7 @@
         <img src="images/kids.png" alt="kids">
       </div>
       <div class="text">
-          <h1><em></em>Profielen voor kinderen</em></em></h1>
+          <h1><em>Profielen voor kinderen</em></h1>
             <p>Laat kids op avontuur gaan met hun favoriete personages in een omgeving <br> die speciaal voor hen is gemaakt. Gratis bij je lidmaatschap.</p>
       </div>
     </div>
@@ -114,7 +114,7 @@
     </div>
     <div class="search1">
         <input type="text" class="box1" placeholder="E-mailadres">
-        <span class="try1">Aan de slag <i class="fas fa-angle-right" aria-hidden="true"></i></span>
+        <span class="try1"><a style="color: white; text-decoration: none;" href="index2.html">Aan de slag &#10095;</a></span>
     </div>
     <h4>Klaar om te kijken? Voer je e-mailadres in om je lidmaatschap te starten of te hernieuwen.</h4>
 </div>
@@ -139,7 +139,7 @@
       <li><a href="">Alleen op Netflix</a></li>
     </ul>
     <ul class="list1">
-      <li><a href="">Account</a></li>
+      <li><a href="index2.html">Account</a></li>
       <li><a href="">Cadeaubonnen gebruiken</a></li>
       <li><a href="">Privacy</a></li>
       <li><a href="">Snelheidstest</a></li>
@@ -155,7 +155,7 @@
 </div>
 <div class="end">
   <h2>Netflix Belgie</h2> 
-  <h2>Hex Pascal &copy; 2024</h2>                    
+  <h2>Hex Pascal&copy;2024</h2>                    
 </div>
 <script>
   "use strict";
@@ -172,9 +172,7 @@
       panels.forEach(function (panel) {
           panel.style.display = "none";
       });
-  });
+    });
 </script>
 </body>
 </html>
-
-

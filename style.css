@@ -1,16 +1,13 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Martel+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-
 body {
   margin: 0;
   padding: 0;
   flex-wrap: wrap;
   display: flex;
   font-family: "Roboto", sans-serif;
-  background-color: rgba(8, 8, 8, 0.89);
-}
-
+  background-color: rgba(8, 8, 8, 0.89);}
 header {
   display: flex;
   flex-direction: row;
@@ -20,45 +17,32 @@ header {
   height: 50px;
   min-height: 100px;
   justify-content: space-between;
-  background-color: transparent;
-}
-
+  background-color: transparent;}
 header .navbar {
+  background-color: rgba(40, 74, 45, 0);
   display: flex;
   justify-content: space-between;
   width: 100%;
-  align-items: center;
-}
-
+  align-items: center;}
 header .logo img {
   margin-top: 50px;
   margin-left: 100px;
-  width: 300px;
-}
-
+  width: 300px;}
 header .logo {
-  transition: transform 0.8s ease; 
-}
-
+  transition: transform 0.8s ease; }
 header .logo:hover {
-  transform: rotateY(360deg);
-}
-
+  transform: rotateY(360deg);}
 header .controls {
+  background-color: rgba(40, 74, 45, 0);
   display: flex;
   align-items: center;
-  margin-right: 10px;
-  
-}
+  margin-right: 10px;}
 .fa-angle-right {
-  font-size: 2em;
-}
+  font-size: 2em;}
 header .controls select {
   margin-right: 10px;
-  background-color: rgba(40, 74, 45, 0.961);
-  color: white;
-}
-
+  background-color: rgba(0, 0, 0, 0);
+  color: white;}
 header .buttons {
   background-color: #e50914;
   padding: 7px 25px;
@@ -68,22 +52,18 @@ header .buttons {
   height: 30px;
   width: 100px;
   font-size: 25px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
+  transition: background-color 0.3s ease, transform 0.3s ease;}
 header .buttons:hover {
   background-color: rgba(192, 231, 16, 0.572);
-  transform: scale(1.2);
-}
-
-.controls select {
+  transform: scale(1.2);}
+.controls select{
+  background-color: rgba(40, 74, 45, 0);
   display: flex;
   align-items: center;
   height: 40px ;
   width: 200px;
   font-size: 25px;
-}
-
+  color:black;}
 .main {
   width: 100%;
   margin-top: -100px;
@@ -95,9 +75,7 @@ header .buttons:hover {
   background-position: center;
   min-height: 95vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(images/achtergrond.jpg);
-}
-
+    url(images/achtergrond.jpg);}
 .area {
   width: 120%;
   color: white;
@@ -106,41 +84,26 @@ header .buttons:hover {
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 50px;
-}
-
+  margin-top: 50px;}
 .area h1 {
   font-size: 60px;
   word-spacing: 5px;
   line-height: 30px;
-  font-weight: lighter;
-}
-
+  font-weight: lighter;}
 .area h3 {
   font-size: 35px;
-  font-weight: normal;
-}
-.area h4 {
-  font-size: 25px;
-  font-weight: normal;
-  padding: 50px;
-}
-
+  font-weight: normal;}
 .search {
   width: 30%;
   margin: 0 auto;
-  display: flex;
-}
-
+  display: flex;}
 .box {
   width: 100%; 
   padding: 10px;
-  background-color: rgba(40, 74, 45, 0.961);
+  background-color: rgba(40, 74, 45, 0);
   margin-right: 10px;
   border-radius: 5px;
-  color: white;
-}
-
+  color: white;}
 .try {
   background-color: #e50914;
   display: flex;
@@ -151,19 +114,10 @@ header .buttons:hover {
   width: 100%;
   border-radius: 5px;
   font-size: 21px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
+  transition: background-color 0.3s ease, transform 0.3s ease;}
 .try:hover {
   background-color: rgba(192, 231, 16, 0.572); 
-  transform: scale(1.1);
-}
-
-.area h4 {
-  margin-top: 10px;
-  font-weight: normal;
-}
-
+  transform: scale(1.1);}
 .container1 {
   width: 100%;
   min-height: 90vh;
@@ -173,9 +127,7 @@ header .buttons:hover {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  text-align: left;
-}
-
+  text-align: left;}
 .container1 img {
   display: flex;
   justify-content: center;
@@ -184,18 +136,14 @@ header .buttons:hover {
   object-position: center;
   align-self: center;
   max-width: 100%;
-  height: 350px;
-}
-
+  height: 350px;}
 .container1 .image {
   display: flex;
   justify-content: center;
   flex-direction: row;
   align-items: center;
   align-self: center;
-  object-fit: contain;
-}
-
+  object-fit: contain;}
 .text {
   color: white;
   display: flex;
@@ -203,18 +151,12 @@ header .buttons:hover {
   align-items: flex-start;
   justify-content: flex-start;
   align-self: center;
-  align-content: center;
-}
-
+  align-content: center;}
 .text p {
   font-size: 2.5rem;
-  margin-top: 5px;
-}
-
+  margin-top: 5px;}
 .text h1 {
-  font-size: 5rem;
-}
-
+  font-size: 5rem;}
 .question {
   width: 100%;
   min-height: 950px;
@@ -224,9 +166,7 @@ header .buttons:hover {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  text-align: center;
-}
-
+  text-align: center;}
 .question h1 {
   text-align: center;
   color: white;
@@ -236,9 +176,7 @@ header .buttons:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-}
-
+  justify-content: center;}
 .quest {
   width: 80%;
   min-height: 100px;
@@ -249,9 +187,7 @@ header .buttons:hover {
   display: flex;
   text-align: left;
   flex-direction: row;
-  margin: 5px 5px;
-}
-
+  margin: 5px 5px;}
 .quest .question-textbox {
   display: flex;
   text-align: left;
@@ -263,9 +199,7 @@ header .buttons:hover {
   font-size: 35px;  
   margin: 0 30px;
   word-spacing: 10px;
-  text-align: left;
-}
-
+  text-align: left;}
 .panel {
   display: none;
   width: 80%;
@@ -277,16 +211,12 @@ header .buttons:hover {
   display: flex;
   text-align: left;
   flex-direction: row;
-  margin: 5px;
-}
-
+  margin: 5px;}
 .panel p {
   margin: 30px;
   word-spacing: 5px;
   text-align: left;
-  font-size: 25px; 
-}
-
+  font-size: 25px; }
 .search1 {
   width: 40%;
   min-height: 80px;
@@ -295,13 +225,9 @@ header .buttons:hover {
   align-items: center;
   justify-content: center;
   text-align: left;
-  margin-top: 10px;
-}
-
+  margin-top: 10px;}
 h4 {
-  font-size: 20px;
-}
-
+  font-size: 20px;}
 .box1 {
   width: 50%;
   min-height: 65px;
@@ -309,9 +235,7 @@ h4 {
   border: rgba(0, 0, 0, 0) 2px solid;
   border-radius: 5px;
   margin-right: 10px;
-  color: white;
-}
-
+  color: white;}
 .try1 {
   display: flex;
   flex-direction: row;
@@ -325,21 +249,10 @@ h4 {
   margin: 50px 0;
   text-transform: uppercase;
   border-radius: 5px;
-  transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
+  transition: background-color 0.3s ease, transform 0.3s ease;}
 .try1:hover {
   background-color: rgba(192, 231, 16, 0.572);
-  transform: scale(1.1);
-  
-}
-
-.question h4 {
-  color: white;
-  margin-top: -20px;
-  padding-bottom: 40px;
-}
-
+  transform: scale(1.1);}
 .footer {
   display: flex;
   flex-direction: column;
@@ -349,9 +262,7 @@ h4 {
   margin-top: 10px;
   flex-wrap: wrap;
   align-items:center;
-  justify-content:space-around;
-}
-
+  justify-content:space-around;}
 .footercon {
   display: flex;
   flex-direction: row;
@@ -360,25 +271,7 @@ h4 {
   align-items: center;
   flex-wrap: wrap;
   min-height: 50px;
-  background-color: transparent;
-}
-
-.footer .flex1 {
-  color:#999;;
-  justify-content:space-around;
-  align-items:flex-start;
-  display: flex;
-  flex-direction:row;
-  flex-wrap:wrap;
-  width:100%;
-  font-size: 17px;
-  min-height: 30px;
-}
-
-.footer .flex1 h5 {
-  align-self:flex-start;
-}
-
+  background-color: transparent;}
 .list1 {
   color: white;
   display: flex;
@@ -391,9 +284,7 @@ h4 {
   min-height:50px;
   font-size: 13px;
   padding: 0px 70px;
-  text-align: left;
-}
-
+  text-align: left;}
 .list1 li {
   font-size: 13px;
   margin: 7px -10px;
@@ -405,29 +296,15 @@ h4 {
   align-items: flex-start;
   justify-items: center;
   align-self: flex-start;
-  justify-content: center;
-}
-
+  justify-content: center;}
 .list1 li a {
   color: #999;
   text-decoration: none;
-  font-size: 14px;
-}
-
+  font-size: 14px;}
 li a {
   font-size: 13px;
   text-align: center;
-  color: #999;
-}
-
-.footertxt {
-  color:white;
-  display:flex;
-  flex-direction:row;
-  align-items:flex-end;
-  justify-content: flex-end;
-}
-
+  color: #999;}
 .end {
   width:100%;
   min-height:50px;
@@ -438,111 +315,74 @@ display: flex;
 flex-direction:row;
 flex-wrap:wrap;
 color:#999;
-margin-top:-60px;
-}
-
+margin-top:-60px;}
 .end h2 {
   display:flex;
   flex-direction: row;
-font-size:16px;
-}
-
-
+font-size:16px;}
 @media (min-width: 250px) and (max-width: 980px) {
   body {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-  }
-
+    flex-wrap: wrap;}
   .container1 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     align-self: center;
-    margin: auto;
-  }
-
+    margin: auto;}
   .area h1 {
     font-size: 40px;
-    line-height: 60px;
-  }
-
+    line-height: 60px;}
   .area h3 {
-    margin-top: 10px;
-  }
-
+    margin-top: 10px;}
   .container1 img {
-    width: auto;
-  }
-
+    width: auto;}
   .navbar {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: #000;
-  }
-  
+    background-color: rgba(40, 74, 45, 0);}
   .logo {
-    margin-bottom: 10px; 
-  }
-
+    margin-bottom: 10px; }
   .controls {
-    display: none; 
-  }
-
+    background-color: rgba(40, 74, 45, 0);
+    display: none; }
   .buttons {
     width: 80%;
-    margin-left: 400px;
-  }
-  
+    margin-left: 400px;}
   .search {
     display: flex;
     flex-direction: column;
     margin: 30px 10px;
     width: 80%; 
-    margin-bottom: 40px;
-  }
-
+    margin-bottom: 40px;}
   .box {
     width: 100%;
-    margin-bottom: 20px;
-    
-  }
-
+    margin-bottom: 20px;}
   .try {
     width: 100%; 
     margin: 0 10px;
     font-size: 17px;
-    min-height: 50px;
-  }
-
+    min-height: 50px;}
   .search1 {
     display: flex;
     flex-direction: column;
     margin: 30px 10px;
     width: 80%; 
-    margin-bottom: 40px;
-  }
-
+    margin-bottom: 40px;}
   h4 {
-    color: white;
-  }
-
+    color: white;}
   .box1 {
     width: 100%;
     margin-bottom: 20px;
-    margin: 30px;
-  }
-
+    margin: 30px;}
   .try1 {
     width: 100%; 
     margin: 0 10px;
     font-size: 17px;
-    min-height: 50px;
-  }
-
+    min-height: 50px;}
   .text {
     display: flex;
     flex-direction: column;
@@ -551,27 +391,19 @@ font-size:16px;
     align-self: center;
     text-align: center;
     margin-left: 5px;
-    margin-right: 5px;
-  }
-
+    margin-right: 5px;}
   .text h1 {
     font-size: 2rem;
     margin-left: 10px;
-    margin-right: 10px;
-  }
-
+    margin-right: 10px;}
   .text p {
     font-size: 1.2rem;
     margin-left: 10px;
-    margin-right: 10px;
-  }
-
+    margin-right: 10px;}
   .quest .textbox {
     font-size: 20px;
     margin-left: 10px;
-    margin-right: 10px;
-  }
-
+    margin-right: 10px;}
   .quest {
     width: 80%;
     min-height: 75px;
@@ -580,18 +412,14 @@ font-size:16px;
   }
   .controls select {
     display: none;
-  }
-}
-
+    background-color: rgba(40, 74, 45, 0);
+  }}
 @media (min-width: 980px) and (max-width: 1350px) {
   .area h1 {
     font-size: 40px;
-    line-height: 80px;
-  }
+    line-height: 80px;}
   .container1 h1 {
-    margin-left: 100px;
-  }
+    margin-left: 100px;}
   .container1 .text p {
     margin-left: 100px;
-  }
-}
+}}
