@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap');
 *{
 	margin:4px 8px;
@@ -94,4 +95,102 @@ body{
 	left:50%;
 	top:90%;
 	transform: translate(-50%,-90%);
+=======
+@import url('https://fonts.googleapis.com/css?family=Archivo+Narrow&display=swap');
+*{
+	margin:4px 8px;
+	font-family:'Archivo Narrow', sans-serif;}
+body{
+	background-color: #1d1d1d;}
+.logo img{
+	width: 400px;
+	float:left;
+	position:absolute;
+	left:6%;
+	top:2%;}
+.btn button{
+	float: right;
+	border:none;
+	width:150px;
+	height: 40px;
+	background-color:#d81f26;
+	border-radius: 20px;
+	text-decoration:none;
+	text-align: center;
+	color: white;	
+	font-size: 18px;
+	padding:5px;
+	cursor: pointer;
+	position: absolute;
+	left:82%;
+	top:5%;}
+.boo{
+	background: #202020;
+	height:250px;
+	width:360px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	border-radius:2px;}
+.boo img{
+	width:120px;
+	position:absolute;
+	padding: 0 30%;}
+.boo input{
+	width:290px;
+	height:40px;
+	position: absolute;
+	left:3.5%;
+	top:30%;
+	background-color:#2b2b2b;
+	border: 1px solid #323232;
+	border-radius:2px;
+	color:#ffffff;
+	padding:0 15px;
+	font-size:px;}
+.boo #passinp{
+	width:290px;
+	height:40px;
+	position: absolute;
+	left:3.5%;
+	top:50%;
+	background-color:#2b2b2b;
+	border: 1px solid #323232;
+	border-radius:2px;
+	color:#ffffff;
+	padding:0 15px;
+	margin-top: 5px;}
+.boo button{
+	color:white;
+	text-decoration: none;
+	font-size: 25px;
+	cursor: pointer;
+	background:#d81f26;
+	border:none;
+	width:290px;
+	height:40px;
+	position: absolute;
+	margin: 25px;
+	left:3.5%;
+	top:70%;
+	margin-top: 22px;
+	border-radius:2px;}
+@media only screen and (max-width : 480px) {
+	.logo img{
+		width: 200px;
+		left:50%;
+		top:1%;
+		transform: translate(-50%,-1%);
+		text-align:center;}
+	.btn button{
+	float: right;
+	border:none;
+	width:120px;
+	height: 40px;
+	padding:0px;
+	left:50%;
+	top:90%;
+	transform: translate(-50%,-90%);
+>>>>>>> 8b79cd20e65cc0f56bef5bf07663c18b9f6e216c
 	text-align:center;}}
